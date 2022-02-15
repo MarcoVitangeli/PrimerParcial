@@ -20,12 +20,12 @@ The class `M_crmsearch_MODEL_PersonIndexSpecification` stores the specifications
 
 ### usefull methods:
 to load the index specifications we could use a secuence of methods:
-	- `setIndexName(string $name)`
-	- `setIsActive(bool $isActive)`
-	- `setHasDnaUsersOnly(bool $has)`
-	- `setEntityExtensionId(int $entityExtensionId)`
-	- `setFields(array $fields)`
-	- `setSchemaFields(array $schemaFields)`
+- `setIndexName(string $name)`
+- `setIsActive(bool $isActive)`
+- `setHasDnaUsersOnly(bool $has)`
+- `setEntityExtensionId(int $entityExtensionId)`
+- `setFields(array $fields)`
+- `setSchemaFields(array $schemaFields)`
 
 or, as all values are going to be constant, we could use the method `loadFromRichJson` sending as
 parameter a json encoded array.
