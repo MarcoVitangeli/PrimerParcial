@@ -48,7 +48,7 @@ class M_social_PLUG_treadmiller_DefaultIndexCreator {
 		//json array with the key-pair values
 	]
 	
-	static createDefaultIndex() {
+	static function createDefaultIndex() {
 		//code mention above
 	}
 }
